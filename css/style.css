@@ -1,0 +1,34 @@
+:root {
+    --white: white;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+.page-title {
+    text-align: center;
+    color: palevioletred;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-direction: wrap;
+}
+
+header > p {
+    text-align: center;
+    color: var(--white);
+}
+
+.card-column {
+    display: flex;
+    border: 2px dashed var(--white);
+    width: 30%;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.card-header {
+    text-;
